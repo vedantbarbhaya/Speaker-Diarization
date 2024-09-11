@@ -62,7 +62,7 @@ Clone the repository to your local machine:
 git clone https://github.com/your-username/Speaker-Diarization.git
 cd Speaker-Diarization
 ```
-###To build the Docker image, run the following command in the repository root:
+### To build the Docker image, run the following command in the repository root:
 
 ```bash
 docker build -t Speaker-Diarization
