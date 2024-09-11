@@ -53,7 +53,7 @@ The application uses a `config.json` file to manage various settings, including 
   "language": null,
   "device": "auto"
 }
-
+```
 ## Setup Instructions
 
 ### Clone the Repository
@@ -61,17 +61,17 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/Speaker-Diarization.git
 cd Speaker-Diarization
-
+```
 ###To build the Docker image, run the following command in the repository root:
 
 ```bash
 docker build -t Speaker-Diarization
-
+```
 ###Run the Docker Container with Custom config.json
 ####Run the Docker container while mounting your custom config.json file and the directory containing your audio files:
 
 ```bash
 docker run -v /path/to/your/config.json:/app/config.json -v /path/to/audio:/app/data/audio-files Speaker-Diarization
-
+```
 Replace /path/to/your/config.json with the actual path to your config.json.
 Replace /path/to/audio with the path to the directory containing your audio files.
