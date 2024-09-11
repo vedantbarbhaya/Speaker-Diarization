@@ -1,0 +1,12 @@
+{
+  "audio_path": "./data/audio-files",
+  "transcript_save_path": "./data/audio-files/transcripts",
+  "stemming": false,
+  "suppress_numerals": true,
+  "model_name": "medium.en",
+  "batch_size": 8,
+  "language": null,
+  "device": "auto"
+}
+
+
